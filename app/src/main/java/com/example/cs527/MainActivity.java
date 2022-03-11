@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient());
 
         // 加载指定网页
-        String url = "https://chenpipi.cn";
+        String url = "https://github.com/";
         webView.loadUrl(url);
     }
 
