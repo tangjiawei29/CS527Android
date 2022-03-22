@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient());
 
         // 加载指定网页
-        String url = "https://github.com/";
+        String url = "http://cs527-env.eba-i3nmhmmn.us-east-1.elasticbeanstalk.com/sql";
         webView.loadUrl(url);
     }
 
